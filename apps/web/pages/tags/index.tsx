@@ -12,7 +12,7 @@ const Tags: React.FC = () => {
         {Array.from({ length: 10 }).map((_, i) => (
           <div className="border rounded-lg overflow-hidden" key={i}>
             <div className="w-full h-4 bg-slate-600" />
-            <div className="flex flex-col items-start p-8">
+            <div className="flex flex-col items-start p-8 bg-white">
               <div>#tag</div>
               <p>
                 Once relegated to the browser as one of the 3 core technologies
