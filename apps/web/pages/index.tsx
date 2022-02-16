@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Button } from "ui";
 
 export default function Web() {
@@ -12,6 +13,20 @@ export default function Web() {
           <button>Create account</button>
           <button>Log in</button>
         </div>
+        <ul>
+          <li>
+            <Link href="/">Home</Link>
+          </li>
+          <li>
+            <Link href="/tags">Tags</Link>
+          </li>
+          <li>
+            <Link href="/videos">Videos</Link>
+          </li>
+          <li>
+            <Link href="/podcasts">Podcasts</Link>
+          </li>
+        </ul>
       </div>
       <div>2</div>
       <div>
