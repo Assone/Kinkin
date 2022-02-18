@@ -6,7 +6,7 @@ const Search: React.FC = () => {
   const { keyword } = route.query;
 
   return (
-    <div className="w-4/5 m-auto">
+    <>
       <div className="flex justify-between px-2 py-4">
         <div>Search results for {keyword}</div>
         <div className="flex gap-8">
@@ -29,7 +29,7 @@ const Search: React.FC = () => {
           ))}
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

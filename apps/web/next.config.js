@@ -6,6 +6,9 @@ const withTM = require("next-transpile-modules")(["ui"]);
 const config = {
   swcMinify: true,
   reactStrictMode: true,
+  images: {
+    domains: ["dev-to-uploads.s3.amazonaws.com"],
+  },
 };
 
 module.exports = withTM(config);

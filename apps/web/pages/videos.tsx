@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const Videos: React.FC = () => (
-  <div className="w-4/5 m-auto">
+  <>
     <div>DEV on Video</div>
     <div className="grid grid-cols-3 gap-8">
       {Array.from({ length: 10 }).map((_, i) => (
@@ -19,7 +19,7 @@ const Videos: React.FC = () => (
         </div>
       ))}
     </div>
-  </div>
+  </>
 );
 
 export default Videos;
