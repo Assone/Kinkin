@@ -1,7 +1,5 @@
 import { NextRouter, useRouter } from "next/router";
 
-type FunctionParamsType<T> = T extends (...args: infer P) => any ? P : never;
-
 interface ButtonProps {
   className?: string;
   color?: string;

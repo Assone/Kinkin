@@ -1,0 +1,12 @@
+{
+  "name": "@kinkin/web-service",
+  "version": "0.0.1",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "dependencies": {
+    "@types/react": "^17.0.37",
+    "tsconfig": "workspace:*",
+    "config": "workspace:*",
+    "typescript": "^4.5.3"
+  }
+}

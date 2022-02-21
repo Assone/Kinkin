@@ -8,7 +8,7 @@ const SiteHeader: React.FC = () => {
   const router = useRouter();
 
   return (
-    <Header className="sticky top-0 border-b backdrop-blur bg-white/75">
+    <Header className="sticky top-0 z-50 border-b backdrop-blur bg-white/75">
       <nav className="flex justify-between w-11/12 py-2 m-auto">
         <div className="flex items-center gap-4">
           <Image

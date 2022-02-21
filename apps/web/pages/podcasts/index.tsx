@@ -1,6 +1,6 @@
 const Podcasts: React.FC = () => {
   return (
-    <div className="w-4/5 m-auto">
+    <>
       <div className="flex justify-between">
         <div className="text-4xl">Podcasts</div>
         <button>Suggest a Podcast</button>
@@ -49,7 +49,7 @@ const Podcasts: React.FC = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

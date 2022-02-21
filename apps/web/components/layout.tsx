@@ -6,7 +6,7 @@ export const Layout: React.FC = ({ children }) => {
     <>
       <SiteHeader />
       <main className="bg-[rgb(245,245,245)] py-4">
-        <div className="w-11/12 m-auto">{children}</div>
+        <div className="w-[98vw] lg:max-w-7xl m-auto">{children}</div>
       </main>
       <SiteFooter />
     </>

@@ -23,7 +23,7 @@ const Tabs: React.FC<TabsProps> = ({ list, onChange = () => {} }) => {
     <div>
       {list.map(({ name, href }, i) => (
         <Button
-          className={`${active === i ? "font-bold" : ""}`}
+          className={`${active === i ? "font-bold" : ""} !px-2`}
           key={name}
           to={[href]}
           color="#000"
